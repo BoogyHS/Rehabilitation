@@ -7,7 +7,7 @@ const config = {
     },
     production: {
         port: process.env.PORT || 3000,
-        dbURL: 'mongodb+srv://Boogy:131311@boogy-xm4wc.mongodb.net/Boogy?retryWrites=true&w=majority'
+        dbURL: "mongodb+srv://cluster0-qdt5y.mongodb.net/rehabilitation"
     }
 };
 
