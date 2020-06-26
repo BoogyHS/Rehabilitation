@@ -4,6 +4,7 @@
 @import url('header.css');
 @import url('aside.css');
 @import url('footer.css');
+@import url('responsive.css');
 body {
     max-width: 1366px;
     margin: auto;
@@ -14,9 +15,9 @@ body {
 /* main  */
 
 .wrapper {
-    margin-top: 1em;
+    margin-top: 1rem;
     display: flex;
-    padding: 1em;
+    padding: 1rem;
 }
 
 main {

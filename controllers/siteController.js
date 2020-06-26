@@ -3,35 +3,35 @@ function home(req, res) {
 }
 
 function getPhysio(req, res) {
-    res.render('home');
+    res.render('physio');
 }
 
 function getRehabilitation(req, res) {
-    res.render('home');
+    res.render('rehabilitation');
 }
 
 function getMassage(req, res) {
-    res.render('home');
+    res.render('massage');
 }
 
 function getHospis(req, res) {
-    res.render('home');
+    res.render('hospis');
 }
 
 function getPayments(req, res) {
-    res.render('home');
+    res.render('payments');
 }
 
 function getPurpose(req, res) {
-    res.render('home');
+    res.render('purpose');
 }
 
 function getTasks(req, res) {
-    res.render('home');
+    res.render('tasks');
 }
 
 function getResources(req, res) {
-    res.render('home');
+    res.render('resources');
 }
 
 module.exports = {

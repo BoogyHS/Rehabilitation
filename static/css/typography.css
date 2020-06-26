@@ -2,24 +2,6 @@ html {
     font: 18px/1.5 Verdana, sans-serif;
 }
 
-@media (min-width: 800px) {
-    html {
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 1024px) {
-    html {
-        font-size: 16px;
-    }
-}
-
-@media (min-width: 1280px) {
-    html {
-        font-size: 18px;
-    }
-}
-
 body, form, input, textarea, option, select, button {
     font: inherit;
 }

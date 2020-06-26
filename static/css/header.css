@@ -1,10 +1,46 @@
 header {
     background: rgb(0, 128, 182);
     background: linear-gradient(0deg, rgba(0, 128, 182, 1) 0%, rgba(0, 128, 182, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    align-items: stretch;
+}
+
+header>a {
+    width: 30%;
+    padding: 0.3rem;
+}
+
+.home img {
+    width: 100%;
 }
 
 header nav {
-    padding: 1em;
+    flex-grow: 1;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+}
+
+header nav ul {
+    flex-grow: 1;
+    padding: 0;
+    align-self: flex-end;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    /* font-size: 150%; */
+}
+
+/* 
+header nav {
+    padding: 0.3rem;
     padding-bottom: 0;
     text-align: right;
     display: flex;
@@ -29,13 +65,13 @@ header ul {
 header li {
     display: inline-block;
     border: 1px solid rgba(0, 212, 255, 1);
-    border-radius: 0.3em;
-    padding: 0.5em 1.2em;
-    margin: 0.5em;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1.2rem;
+    margin: 0.5rem;
 }
 
 header a {
-    font-size: 1.1em;
+    font-size: 1.1rem;
     color: white;
     text-decoration: none;
-}
+} */
