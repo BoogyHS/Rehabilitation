@@ -25,3 +25,7 @@ aside li+li {
 aside a {
     text-decoration: none;
 }
+
+aside a:hover {
+    color: red;
+}

@@ -34,6 +34,10 @@ function getResources(req, res) {
     res.render('resources');
 }
 
+function getContacts(req, res) {
+    res.render('contacts');
+}
+
 module.exports = {
     home,
     getPhysio,
@@ -43,5 +47,6 @@ module.exports = {
     getPayments,
     getPurpose,
     getTasks,
-    getResources
+    getResources,
+    getContacts
 }

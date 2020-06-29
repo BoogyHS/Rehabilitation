@@ -23,7 +23,7 @@ header nav {
 
 header nav ul {
     flex-grow: 1;
-    padding: 0;
+    padding: 0 1rem 0 0;
     align-self: flex-end;
 }
 
@@ -35,7 +35,11 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    /* font-size: 150%; */
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    color: white;
 }
 
 /* 

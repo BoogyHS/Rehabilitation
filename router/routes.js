@@ -12,6 +12,7 @@ module.exports = (app) => {
     app.get('/purpose', siteController.getPurpose);
     app.get('/tasks', siteController.getTasks);
     app.get('/resources', siteController.getResources);
+    app.get('/contacts', siteController.getContacts);
     
     // app.get('/about', siteController.about);
 
