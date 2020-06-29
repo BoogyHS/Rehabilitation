@@ -57,11 +57,7 @@ blockquote {
     border-left: 2px solid #000000;
     font-family: Georgia, serif;
     margin-bottom: 1.5em;
-}
-
-blockquote, p {
     font-style: italic;
-    /* padding: 0; */
 }
 
 blockquote p+p {
