@@ -4,7 +4,7 @@ You can find information and contacts of a person for rehabilitation and massage
 
 ## **Mongoose** and **Mongo**
 
-It is implemented database, for storing information about visitors of the site.
+Database is implemented, for storing information about visitors to the site.
 
 ## **Handlebars**
 
